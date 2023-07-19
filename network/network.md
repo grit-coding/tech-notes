@@ -22,6 +22,6 @@ Private address ranges that are assigned by Internet Assigned Numbers Authority(
 
 Private IP addresses are used for local networks and are not routable on the public internet.
 
-If you were to use a public IP address range like `120.0.0.0/16`` for your private network, you could potentially encounter IP address conflicts. For example, **if your network needs to communicate with an internet server that has an IP address in the 120.0.0.0/16 range, your network's routing could become confused and the communication might fail.**
+If you were to use a public IP address range like `120.0.0.0/16` for your private network, you could potentially encounter IP address conflicts. For example, **if your network needs to communicate with an internet server that has an IP address in the 120.0.0.0/16 range, your network's routing could become confused and the communication might fail.**
 
 Therefore, it is always recommended to use the private IP ranges for your VPC or any private networks to avoid such conflicts and issues.
