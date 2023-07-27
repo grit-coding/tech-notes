@@ -1,3 +1,9 @@
+# Network
+## Design Pattern
+Reference: AWS Skill builder/AWS Networking Basic/Networking Concepts
+<br>
+![Network Topology](src/design_patterns/network_design_patterns.png)
+
 ### CIDR (Classless Inter-Domain Routing)
 This is a method for allocating IP addresses and routing Internet Protocol packets.
 
@@ -25,3 +31,10 @@ Private IP addresses are used for local networks and are not routable on the pub
 If you were to use a public IP address range like `120.0.0.0/16` for your private network, you could potentially encounter IP address conflicts. For example, **if your network needs to communicate with an internet server that has an IP address in the 120.0.0.0/16 range, your network's routing could become confused and the communication might fail.**
 
 Therefore, it is always recommended to use the private IP ranges for your VPC or any private networks to avoid such conflicts and issues.
+
+
+
+# Protocols
+## OSI Reference Model vs TCP/IP Protocol Framework
+![OSI vs TCP.IP](src/protocols/TCP_IP_vs_OSI.png)
+
